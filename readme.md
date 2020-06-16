@@ -21,34 +21,11 @@ A Spreadsheet Parser
 
 ## Contribute guide
 If you're in team-granite-backend:
-- Pull the latest version of the repo `git pull`
+- Add the main repository as an upstream `git remote add upstream https://github.com/hngi/spreadsheet-parser.git`
+- Pull the latest version of the repo `git fetch upstream`
+- follow this guide `https://medium.com/@topspinj/how-to-git-rebase-into-a-forked-repo-c9f05e821c8a` if lost.
 - Create a feature branch with your feature name, e.g: `<user-pagination>`
 - Create the your feature locally and commit
 - Send a PR after you have test your feature locally with Postman
 - Tell us in your PR in bullet points what you have added
 - Add yourself as a user to the database (this will eventually count for contribution points)
-
-### requirement.txt content
-- asgiref==3.2.8
-- beautifulsoup4==4.9.1
-- bs4==0.0.1
-- cycler==0.10.0
-- Django==3.0.7
-- et-xmlfile==1.0.1
-- html5==0.0.9
-- jdcal==1.4.1
-- kiwisolver==1.2.0
-- matplotlib==3.2.1
-- numpy==1.18.5
-- openpyxl==3.0.3
-- pandas==1.0.4
-- pep8==1.7.1
-- pyparsing==2.4.7
-- python-dateutil==2.8.1
-- pytz==2020.1
-- scipy==1.4.1
-- seaborn==0.10.1
-- six==1.15.0
-- soupsieve==2.0.1
-- sqlparse==0.3.1
-- webencodings==0.5.1
