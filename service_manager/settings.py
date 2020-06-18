@@ -39,11 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'service_manager',
     'rest_framework',
-    'rest_framework_swagger',
-    'tokenauth',
-    'django_jenkins',
     'django_extensions',
-    'corsheaders',
+    
 ]
 
 MIDDLEWARE = [
